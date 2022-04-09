@@ -1,0 +1,43 @@
+.target {
+    width: 1000px;
+    margin: 10px auto;
+
+}
+.block_1 {
+    height: 460px;
+    background-color: #4343e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fefefe;
+
+}
+.box_tri {
+    display: flex;
+    justify-content: space-between;
+
+}
+.box {
+    height: 460px;
+    width: 460px;
+    color: #fefefe;
+    background: #2a2a5b;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+.contakt {
+    height: 800px;
+    background-color: #4343e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fefefe;
+    margin-top: 10px;
+
+}

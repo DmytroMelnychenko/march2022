@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background: azure;
+
+}
+
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #2a2a5b;
+    border-radius: 8px;
+
+}
+.box1>i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.box2 {
+    height: 400px;
+    background: #2a2a5b;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-gap: 20px;
+
+
+
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background: cornflowerblue;
+    border-radius: 8px;
+    position: relative;
+  top: 75px;
+
+}

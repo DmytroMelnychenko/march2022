@@ -1,0 +1,56 @@
+.target {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 120px auto;
+
+}
+.box {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    border: solid 1px gray;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+
+}
+.title {
+    font-size:  25px;
+    margin-bottom: 50px;
+
+}
+.txt {
+    width: 250px;
+    line-height: 25px;
+    color: gray;
+    text-align: center;
+
+}
+.btn {
+    width: 180px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  solid 2px;
+
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    position: relative;
+    font-size: 29px;
+    bottom: 60px;
+    background: #fefefe;
+    color: darksalmon;
+
+}

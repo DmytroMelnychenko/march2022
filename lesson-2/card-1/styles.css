@@ -1,0 +1,39 @@
+.target {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.box {
+    width: 250px;
+    height: 340px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 50px;
+    align-items: center;
+    text-align: center;
+
+
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt {
+    line-height: 25px;
+    color: gray;
+    margin: -15px 25px ;
+
+}
+.title {
+    font-size: 23px;
+}

@@ -85,17 +85,15 @@ console.log(book1);*/
 жанр (string)
 автори (тип - масив, кожен елемент масиву - це стрінга)*/
 
-/*let book2 = {
+/*
+let book2 = {
     "title": 'taxi',
     "pages": 100,
     "shanr": 'fantantastic',
-    author: [
-        {name: 'taras'},
-        {name: 'tarfras'},
-    ]
-
+    author: [{name: 'taras'},{name: 'tarfras'},],
 }
-console.log(book2)*/
+console.log(book2)
+*/
 
 
 

@@ -1,13 +1,15 @@
 /*- Є змінна х, якій ви надаєте довільне числове значення.
     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3*/
 
-/*let x = -3;
-if (x !==0) {
+/*
+let x = 3;
+if (x !== 1) {
     console.log(true)
 }
 else {
     console.log(false)
-}*/
+}
+*/
 
 
 
@@ -15,38 +17,38 @@ else {
 /*- Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 (в першу, другу, третю или четверту частину години).*/
 
-/*let time = +prompt('enter namber from 0 to 59');
+/*
+let time = +prompt('enter namber from 0 to 59');
 
-if (time >= 0 && 15 <= time) {
+if (time >= 0 && time <= 15 ) {
     console.log(' 1 quoter');
 }
-else if (time >= 16 && 30 <= time) {
+else if (time >= 16 && time <= 30 ) {
     console. log('2 quoter');
 }
 
-else if (time >= 31 && 45 <= time) {
+else if (time >= 31 && time <= 45 ) {
     console. log('3 qouter');
 }
-else if (time >= 46 && 59 <= time) {
+else if (time >= 46 && time <= 59 ) {
     console. log('4 qouter');
-}*/
+}
+*/
 
 
 
 /*- У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).*/
 
-/*
-let day = +prompt('enter namber from 0 to 31');
-if (namber >= 0 || 10 <= namber) {
+/*let day = +prompt('enter namber from 1 to 31');
+if (day >= 1 && day <= 10 ) {
     console.log('1 decada')
 }
-else if (namber >= 11 || 20 <= namber) {
+else if (day >= 11 && day <= 20 ) {
     console.log('2 decada')
 }
-else if (namber >= 21 || 31 <= namber) {
+else if (day >= 21 && day <= 31 ) {
     console.log('3 decada')
-}
-*/
+}*/
 
 
 
@@ -88,3 +90,17 @@ switch (week) {
     - Користувач вводить або має два числа.
         Потрібно знайти та вивести максимальне число з тих двох .
         Також потрібно врахувати коли введені рівні числа.*/
+
+/*
+let a = +prompt('Введите первое число');
+let b = +prompt('Введите второе число');
+if (a > b) {
+    alert('Первое число больше')
+} else if (b > a) {
+    alert('Второе число больше')
+}
+else if (a === b) {
+    alert('Числа одинаковые')
+
+}
+*/

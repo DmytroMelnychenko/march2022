@@ -100,42 +100,134 @@ console.log(radiusHeight(10,20));*/
 
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
-/*let */
 
 
+/*
+let arrAll = ['q','w','e','r','t','y',true,false];
 
+let array = [0,1,2,3,4,5,6,7,8,9,10];
 
-
-
-
-
-/*let array = [5,10,'user']
-let qwerty = ['user','user2',25,40]
-
-function lemtnt(arr) {
+const creatArray = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         console.log(arr[i])
     }
-
 }
 
-lemtnt(array)
-lemtnt(qwerty)*/
-
-
-
-
-
-
-
+creatArray(arrAll);
+creatArray(array);
+*/
 
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
+/*
+const creatP = (argument) => {
+    for (let i = 0; i < 1; i++) {
+        document.write(`<p>${argument}</p>`)
+    }
+}
+creatP(' велилкий параграф з текстом ');
+*/
+
+
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
+/*
+const creatUl = (arguments) => {
+    document.write(`<ul>`)
+        document.write(`<li>${arguments}</li>`)
+        document.write(`<li>${arguments}</li>`)
+        document.write(`<li>${arguments}</li>`)
+    document.write(`</ul>`)
+}
+
+creatUl('Fункція ul з трьома елементами li.');
+*/
+
+
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+/*const createUl = (arguments, num) => {
+    document.write(`<ul></ul>`)
+    for (let i = 0; i < num; i++) {
+        document.write(`<li>${arguments}</li>`)
+    }
+    document.write(`</ul>`)
+}
+
+createUl('Fункція яка створює ul з трьома елементами li', 3);*/
+
+
+
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
+/*
+const listCreat = (list) => {
+    for (let i = 0; i < list.length; i++) {
+        document.write(`<div>${list[i]}</div>`)
+    }
+}
+
+listCreat(array);*!/
+*/
+
+
+
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+/*let users = [{id:1, name: 'Viktor', age: 31},
+    {id:2, name: 'Fedor', age: 23},
+    {id:3, name: 'Alona', age: 33},
+    {id:4, name: 'Vlad', age: 41},
+    {id:5, name: 'Masha', age: 32}];
+
+const creatUser = (arguments) => {
+    for (let i = 0; i < arguments.length; i++) {
+        let user = users[i];
+        document.write(`<div>${user.id} ${user.name} ${user.age}</div>`)
+    }
+}
+
+creatUser(users);*/
+
+
+
 // - створити функцію яка повертає найменьше число з масиву
+/*let array = [55,45,76,33,89,88,32,44,34,56,21,35];
+
+const minNum = (array) => {
+    let arrayNumber = array[0];
+    for (const arrayElement of array) {
+        if (arrayElement < arrayNumber) {
+            arrayNumber = arrayElement;
+        }
+    }
+    return arrayNumber;
+}
+
+console.log(minNum(array));*/
+
+
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
-//
+/*let array = [1,2,10]
+
+const sumArr = (array) => {
+    let sumArr = 0;
+    for (const arrayElement of array) {
+        sumArr = sumArr + arrayElement
+    }
+    return sumArr
+}
+
+console.log(sumArr(array));*/
+
+
 // -створити функцію, яка приймає масив з 2х об'єктів, та міняє їх місцями.
+/*
+let array = ['<<<<<<left', 'right>>>>>>'];
+
+const conversely = (arr) => {
+   let newArr = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+        newArr.push(arr[i])
+    }
+    return newArr;
+}
+
+console.log(conversely(array));*/

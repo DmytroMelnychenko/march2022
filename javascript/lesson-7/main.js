@@ -152,3 +152,42 @@ console.log(array2)*/
 Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку*/
+
+/*
+function Cinderella(name,age,footSize) {
+    this.name = name;
+    this.age = age;
+    this.footSize = footSize;
+}
+let arrCinderella = [
+    new Cinderella('Tanya',27,36),
+    new Cinderella('Valya',22,37),
+    new Cinderella('Cralya',35,38),
+    new Cinderella('Natalya',24,39),
+    new Cinderella('Alya',25,40),
+    new Cinderella('Gargulya',19,41),
+    new Cinderella('Kamalya',29,42),
+    new Cinderella('Maria',28,43),
+    new Cinderella('Sveta',21,44),
+    new Cinderella('Galya',43,45),
+];
+function Prince(name,age,findSize) {
+    this.name = name;
+    this.age = age;
+    this.findSize = findSize;
+
+}
+let  newPrince = new Prince('Ivan',43,45);
+let find = (arrCinderella,Prince) => {
+    for (const item of arrCinderella) {
+        if(item.footSize === Prince.findSize) {
+            return `${item.name}`;
+        }
+        
+    }
+}
+console.log(find(arrCinderella, newPrince));
+
+let cind = arrCinderella.find(value => value.footSize === newPrince.findSize);
+console.log(cind);
+*/

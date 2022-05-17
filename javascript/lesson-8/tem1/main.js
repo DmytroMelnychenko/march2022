@@ -2,7 +2,6 @@
     - Напишіть код,  котрий :*/
 
 //-- отримує текст з параграфа з id "content
-
 /*let contentId = document.getElementById("content")
 console.log(contentId);*/
 

@@ -59,6 +59,7 @@ for (const containerElement of returnPost) {
     document.body.appendChild(container)
 
 
+
 }
 
 // На странице post-details.html:

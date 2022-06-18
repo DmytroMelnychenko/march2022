@@ -57,6 +57,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
             const keyUser = 'key';
 
+
             const saveInUser = (e) => {
                 let userArray = JSON.parse(localStorage.getItem(keyUser)) || [];
                 userArray.push({e})
